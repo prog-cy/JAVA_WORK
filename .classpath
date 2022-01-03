@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="Abstraction/src"/>
+	<classpathentry kind="src" path="Basic/src"/>
+	<classpathentry kind="src" path="BasicConsoleProgram"/>
+	<classpathentry kind="src" path="BigDecimal/src"/>
+	<classpathentry kind="src" path="ClassAndMethod/src"/>
+	<classpathentry kind="src" path="CommandLineArgument"/>
+	<classpathentry kind="src" path="Constructor/src"/>
+	<classpathentry kind="src" path="EnumerationAndAutoboxing/src"/>
+	<classpathentry kind="src" path="ExceptionHandling/src"/>
+	<classpathentry kind="src" path="FileHandling/src"/>
+	<classpathentry kind="src" path="Generics/src"/>
+	<classpathentry kind="src" path="Inheritance/src"/>
+	<classpathentry kind="src" path="JCF/src"/>
+	<classpathentry kind="src" path="Pattern/src"/>
+	<classpathentry kind="src" path="Polymorphism/src"/>
+	<classpathentry kind="src" path="Problems/src"/>
+	<classpathentry kind="src" path="RandomNumberGenerator/src"/>
+	<classpathentry kind="src" path="RegularExpression/src"/>
+	<classpathentry kind="src" path="String/src"/>
+	<classpathentry kind="output" path="Abstraction/bin"/>
+</classpath>
