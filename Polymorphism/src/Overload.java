@@ -1,5 +1,5 @@
 /*
- * To achieve compile time (static polymorphism) we use method overloading technique
+ * To achieve compile-time (static Polymorphism) we use method overloading technique
  */
 
 public class Overload {

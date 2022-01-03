@@ -1,4 +1,4 @@
-//method overriding 
+//method overriding is used to achieve (runtime or dynamic polymorphism)
 
 class Bank{
 	
