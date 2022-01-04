@@ -1,2 +1,3 @@
 C
 I am writing in file using BufferedOutputStream.
+This is the best way to handle file in java.

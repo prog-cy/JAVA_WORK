@@ -5,11 +5,13 @@ class Parent{
 
 class subclass1 extends Parent{
 	
+	@Override
 	void print() {System.out.println("This is subclass 1.");}
 }
 
 class subclass2 extends Parent{
 	
+	@Override
 	void print() {System.out.println("This is subclass 2.");}
 }
 
@@ -34,6 +36,17 @@ public class OverrideDemo1 {
 		a.print();
 		
 		System.out.println("This is the address of subclass2: "+a);
+		
+		//This is one more way to do above task
+		Object[] ob = {new Parent(), new subclass1(), new subclass2()};
+		
+		((Parent)ob[0]).print();
+		((Parent)ob[1]).print();
+		((Parent)ob[2]).print();
+		
+		for(Object x : ob) {
+			System.out.println(x);
+		}
 
 	}
 

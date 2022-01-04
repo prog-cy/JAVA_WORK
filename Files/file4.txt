@@ -1,1 +1,1 @@
-This is very important program to perform copy one file content from the another file.
+A person at the same time can have different characteristics. Like a man at the same time is a father, a husband, an employee. So the same person possesses different behavior in different situations. This is called polymorphism. 

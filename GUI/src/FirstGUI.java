@@ -13,7 +13,8 @@ public class FirstGUI {
 		double height = Double.parseDouble(JOptionPane.showInputDialog("Enter you height "));
 		JOptionPane.showMessageDialog(null, name+" you are "+height+" inch");
 		
-		
+		long  worth = Long.parseLong(JOptionPane.showInputDialog("Enter you net worth "));
+		JOptionPane.showConfirmDialog(null, name+" your net worth is "+worth);
 	}
 
 }
