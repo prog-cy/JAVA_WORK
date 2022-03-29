@@ -1,6 +1,6 @@
 package jpac;
 
-// To run java program in Eclipse IDE (Ctrl+F11)
+// To run java program in Eclipse IDE (F11)
 
 public class HelloWorld {
 	
