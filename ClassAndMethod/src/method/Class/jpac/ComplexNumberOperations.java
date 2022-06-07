@@ -6,7 +6,7 @@ class Complex{
 	
 	int result_real, result_img;
 	
-	//Constructor to initialize the real, img values
+	//Constructor to initialize the real, imaginary values
 	Complex(int real, int img){
 		
 		this.real = real;
@@ -57,7 +57,7 @@ class Complex{
 			 result_i = Double.parseDouble(numerator[1].trim().substring(1)) / Integer.parseInt(denominator[0].trim());
 		}
 		else
-			return "denominato is zero";
+			return "denominator is zero";
 		
 		return result_r+" + i"+result_i;
 	}
