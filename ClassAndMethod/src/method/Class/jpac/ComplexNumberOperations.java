@@ -1,7 +1,5 @@
 package method.Class.jpac;
 
-import java.util.Arrays;
-
 class Complex{
 	
 	int real, img;
