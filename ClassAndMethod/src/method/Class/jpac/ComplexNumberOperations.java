@@ -1,7 +1,7 @@
 package method.Class.jpac;
 
 class Complex{
-	
+
 	int real, img;
 	
 	int result_real, result_img;
