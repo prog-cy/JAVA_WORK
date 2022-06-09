@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 
 public class BigIntegerFibbonacci {
 	
+	//method which takes a big Integer and finds that fibonacci number.
 	static BigInteger fibonacci(BigInteger N) {
 		
 		BigInteger a = BigInteger.ZERO;
