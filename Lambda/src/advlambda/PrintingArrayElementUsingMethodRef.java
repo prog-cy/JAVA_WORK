@@ -15,5 +15,12 @@ public class PrintingArrayElementUsingMethodRef {
 		//Because forEach loop is only compatible with Collections.
 		arrL.forEach(System.out::println); //traversing array element using method reference
 		
+		String[] strArray = {"Rupesh", "Yug", "Anshika", "Ansh"};
+		
+		List<String> strArrayL = Arrays.asList(strArray);
+		
+		System.out.println("\nNames present in array: ");
+		strArrayL.forEach(System.out::println); 
+		
 	}
 }
