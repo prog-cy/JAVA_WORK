@@ -2,7 +2,7 @@ package advlambda;
 
 interface MyFunction<T>{
 	
-	boolean func(T t, T t1);
+	boolean func(T t1, T t2);
 }
 
 class HighTemp{
@@ -44,9 +44,10 @@ public class InstanceMethodWithClass {
 	public static void main(String[] args) {
 		
 		HighTemp[] weekDayHighs = {new HighTemp(98), new HighTemp(100),
-							 new HighTemp(90), new HighTemp(30),
-							 new HighTemp(40), new HighTemp(98),
-							 new HighTemp(98)};
+							 	   new HighTemp(90), new HighTemp(30),
+							       new HighTemp(40), new HighTemp(98),
+							       new HighTemp(98)};
+		
 		int count = counter(weekDayHighs, HighTemp::sameTemp, new HighTemp(98));
 		System.out.println("Same temperature as 98: "+count);
 		
