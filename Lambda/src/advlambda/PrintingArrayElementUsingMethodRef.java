@@ -14,5 +14,6 @@ public class PrintingArrayElementUsingMethodRef {
 		System.out.println("Array element: ");
 		//Because forEach loop is only compatible with Collections.
 		arrL.forEach(System.out::println); //traversing array element using method reference
+		
 	}
 }
