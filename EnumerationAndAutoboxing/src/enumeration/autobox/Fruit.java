@@ -8,5 +8,5 @@ package enumeration.autobox;
  */
 public enum Fruit {
 	
-	Apple, Banana, Orange, Pineapple, Guavava; 
+	Apple, Banana, Orange, Pineapple, Guava; 
 }
