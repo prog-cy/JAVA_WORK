@@ -7,12 +7,25 @@ interface Interface1{
 	
 	void custom_Method1();
 	
+	default void defaultMethod() {
+		
+		System.out.println("Default method of Interface1");
+	}
+	
+	static void staticMethod() {
+		
+		System.out.println("Static Method with body");
+	}
+	
+	
+	
 }
 
 //Interface2
 interface Interface2{
 	
 	void custom_Method2();
+	
 }
 
 //Interface3
@@ -28,6 +41,8 @@ class Parent{
 		
 		System.out.println("I am in ParentClass.");
 	}
+	
+	
 }
 
 // child class
@@ -51,6 +66,8 @@ class Child1 implements Interface1, Interface3{
 		System.out.println("This is in Interface 3");
 		
 	}
+	
+	
 }
 
 class Child2 extends Parent implements Interface1, Interface2{
@@ -69,9 +86,10 @@ class Child2 extends Parent implements Interface1, Interface2{
 		
 	} 
 	
+	
 }
 
-public class MultipleInheritanceDemo1 {
+public class MultipleInheritanceDemo1 implements Interface1{
 	
 	public static void main(String[] args) {
 		
@@ -81,10 +99,19 @@ public class MultipleInheritanceDemo1 {
 		ch1.custom_Method1();
 		ch1.custom_Method2();
 		ch1.custom_Method3();
+		ch1.defaultMethod();
+		Interface1.staticMethod();
+
 		
 		ch2.parentClassMethod();
 		ch2.custom_Method1();
 		ch2.custom_Method2();
+		
+	}
+
+	@Override
+	public void custom_Method1() {
+		// TODO Auto-generated method stub
 		
 	}
 
