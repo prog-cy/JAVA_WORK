@@ -7,7 +7,8 @@ package generic;
  * data type can be primitive or it can be wrapper classes or an object
  */
 /*
- * There is problem for example 
+ * There is a problem 
+ * For example:  
  * if I have to swap a number regardless of data type
  * I can not do without generic method 
  */
